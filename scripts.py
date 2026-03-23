@@ -4,7 +4,7 @@ from google import genai
 from docx import Document
 
 # 1. Configuration
-API_KEY = "AIzaSyAFUeHSOoLR5TuzGz5QDZAEiBRf6St1sOo" # Replace with your actual key
+API_KEY = "your API Key" # Replace with your actual key
 client = genai.Client(api_key=API_KEY, http_options={'api_version': 'v1'})
 
 # 2. MLS DATA
